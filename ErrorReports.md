@@ -3,8 +3,8 @@
 In general, WorkstationClient is designed not to emit any exceptions for security reasons.
 However when a severe or unhandled error occurs at the client's side, a report is generated to help troubleshooting.
 
-The filepath can be found at the 'ErrorReport' property of the returned **_ClientError_**.
-By design, each report is automatically saved inside the local computer's Temp folder, as you can see below.
+The filepath can be found at the 'ErrorReport' property of the returned *_ClientError_*.
+By design, each report is automatically saved inside the local computer's *Temp* folder, as you can see below.
 
 ![alt text](https://github.com/vkokkinid/WorkstationClient.1.2.0/blob/master/generated_error_reports.jpg "Error reports at the local Temp folder")
 
